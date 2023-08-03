@@ -1,0 +1,9 @@
+<?php
+$sku = $block->getProduct()->getSku();
+$count = $block->getAddToCartCount($sku);
+?>
+<?php if ($count > 0): ?>
+    <div class="hiphop-counter">
+        This HipHop product has been added to cart <?= $count ?> times.
+    </div>
+<?php endif; ?>
