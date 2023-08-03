@@ -37,7 +37,7 @@ You can install the module manually or automate the installation using a script.
 
 Follow these steps to install the module:
 
-1. Concatenate the ZIP parts to get the full ZIP file.
+1. Clone and zip it
 2. Extract the ZIP content into the `app/code` folder of your Magento 2 installation.
 3. Enable the module by running:
    ```bash
@@ -66,6 +66,20 @@ php bin/magento setup:di:compile
 echo "Triple888 HipHop module has been successfully installed!"
 ```
 
-## Features, Compatibility, License, Support
+## Features
 
-[...]
+- Adds a "Hip Hop" attribute to products, allowing to mark products as HipHop.
+- Tracks the number of times a HipHop product is added to the cart.
+- Displays the add-to-cart count on the product page.
+
+## Compatibility
+
+The module has been developed following Magento 2 standards and is expected to be compatible with Magento 2.4. Testing in the specific environment is recommended.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE.md).
+
+## Support
+
+For support and inquiries, please contact me @cgmorah.
