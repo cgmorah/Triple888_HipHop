@@ -52,4 +52,4 @@ This project is open-source and available under the [MIT License](LICENSE.md).
 
 ## Support
 
-For support and inquiries, please contact the repository owner.
+For support and inquiries, please contact me @cgmorah.
