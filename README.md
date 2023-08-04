@@ -22,6 +22,8 @@ The module is structured into several directories and files, each serving a spec
 - `view`: Contains frontend layout and templates.
   - `frontend/layout/catalog_product_view.xml`: Layout XML for the frontend.
   - `frontend/templates/counter.phtml`: Template file to display the counter.
+- `registration.php`: Register module Triple888_HipHop.
+
 
 ## Development
 
