@@ -2,9 +2,6 @@
     <body>
         <referenceBlock name="product.info.addtocart">
             <block class="Triple888\HipHop\Block\Counter" name="hiphop.counter" template="Triple888_HipHop::counter.phtml" before="-">
-                <arguments>
-                    <argument name="product" xsi:type="object">${ $$.product }</argument>
-                </arguments>
             </block>
         </referenceBlock>
     </body>
